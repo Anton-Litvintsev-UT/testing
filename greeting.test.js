@@ -1,4 +1,3 @@
-// greeting.test.js
 const createGreeting = require('./greeting');
 
 test('checks if the greeting string is correctly formed', () => {
