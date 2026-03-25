@@ -9,7 +9,7 @@ function classifyTriangle(a, b, c) {
 
     // Triangle Inequality Conditions (c4, c5, c6)
     // A triangle is invalid if any one side is greater than or equal to the sum of the other two.
-    if (a >= b + c || b >= a + c || c >= a + b) {
+    if (a > b + c || b > a + c || c > a + b) {
         return "NotATriangle";
     }
 
